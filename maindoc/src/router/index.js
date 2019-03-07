@@ -26,6 +26,10 @@ export default new VueRouter({
     {
       path: "/personal",
       component: Personal
+    },
+    {
+      path:'/',
+      redirect:'home'
     }
   ]
 });
